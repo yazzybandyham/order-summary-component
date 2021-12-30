@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%); 
+
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+
+/* this is a reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*images*/
+
+.bgimage {
+    background: url(./images/pattern-background-desktop.svg) no-repeat center/cover;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    z-index: -1;
+    }
+
+.musichero {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+}
+
+.musicnote {
+    position: relative;
+    right: 130px;
+    top: 70px;
+}
+
+
+/*Contained everything within card*/
+.container {
+    background-color: white;
+    margin: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(43, 31, 86, 0.103);
+    
+}
+
+.annual {
+    background-color: var(--Very-pale-blue);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+/* Body & Paragraphs */
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: var(--Pale-blue);
+    text-align: center;
+    color: var(--Desaturated-blue);
+}
+
+.first-paragraph {
+   margin-left: 50px;
+   margin-right: 50px;
+   line-height: 25px;
+}
+
+.price-paragraph {
+    position: relative;
+    Right: 40px;
+}
+
+
+/* Headings */
+h1 {
+    color: var(--Dark-blue);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.6rem;
+    font-family:"Red hat Display", sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    position: relative;
+    Right: 40px;
+}
+
+
+
+/* buttons*/
+button {
+    font-family:"Red Hat Display", sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-change {
+    background: none;
+    border: none;
+    color: var(--Bright-blue);
+    text-decoration: underline;
+    position: relative;
+    left: 130px;
+    bottom: 35px;
+
+}
+
+.button-payment {
+    border:none;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    margin-top: 30px;
+    padding: 15px 100px 15px 100px;
+    box-shadow: 10px 10px 10px rgba(39, 32, 100, 0.247);
+}
+
+.button-cancel {
+    background-color: transparent;
+    border:none;
+    color: var(--Desaturated-blue);
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+/* hover button states */
+
+.button-change:hover {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #7066dd;
+}
+
+.button-cancel:hover {
+    background-color: transparent;
+    border:none;
+    color: var(--Dark-blue);
+}
+
+.button-payment:hover {
+    border:none;
+    background-color: #7066dd;
+    color: var(--Very-pale-blue);
+}
+
+
+/* Attribution 
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+
+
+/* Media */
+@media only screen and (min-width: 375px) {
+   
+}
+
+@media only screen and (max-width: 1440px) {
+
+}
+
